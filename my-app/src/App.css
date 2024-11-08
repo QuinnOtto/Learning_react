@@ -1,0 +1,22 @@
+#title {
+  font-size: 1.5em;
+  color: #123fd3;
+}
+#description {
+  position: absolute;
+  top: 40px;
+  font-size: 2em;
+  color: #123fd3;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    top: 40px;
+  }
+  50%{
+    top: 60px;
+  }
+  100% {
+    top: 40px;
+  }
+}
